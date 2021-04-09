@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+/*wrapper*/
+
+/*header*/
+#navi ul {
+    width: 100%;
+    list-style-type: none;
+}
+
+#navi ul li{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+#navi ul li a {
+    display: block;
+    height: 60px;
+    margin: 0;
+    color: #FFF;
+    font-size: 24px;
+    background-color: #B0C4DE;
+    border-right: solid 3px #FFF;
+}
+
+
+/*footer*/
