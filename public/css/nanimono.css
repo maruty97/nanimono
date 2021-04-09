@@ -24,5 +24,11 @@
     border-right: solid 3px #FFF;
 }
 
+/*body*/
+
+#recommond h1{
+    font-size:100px;
+    color: blueviolet;
+}
 
 /*footer*/

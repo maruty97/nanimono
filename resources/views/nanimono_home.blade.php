@@ -2,7 +2,7 @@
     <head>
         <meta charset="UTF-8">
         <title>ナニモノ　ホーム</title>
-        <link rel="stylesheet" href="{{ secure_asset('/css/nanimono.css') }}">
+        <link href="{{ asset('/css/nanimono.css')}}" rel="stylesheet">
         <script type="text/javascript" src=></script>
     </head>
 
