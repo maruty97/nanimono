@@ -160,9 +160,25 @@ class HelloController extends Controller
     }
 
     //item::all(); このコマンドでアイテムモデルにあるものを出している
-    
+    //nanimonoここからした
     public function nanimono_home(){
         return view('nanimono_home');
+    }
+
+    public function nanimono_signin(){
+        return view('nanimono_signin');
+    }
+    
+    public function signin_action(Repuest $request5){
+        $signins =new Signin();
+
+        $signins->name=$request5->name;
+        $signins->mail=$request5->mail;
+        $signins->age=$request5->age;
+        $signins->password=$request5->password;
+        $signins->repassword=$request5->repassword;
+
+        $signins->save();
     }
     
 }

@@ -19,3 +19,5 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('nanimono_home','HelloController@nanimono_home');
+Route::get('nanimono_signin','HelloController@nanimono_signin');
+Route::post('signin_action','HelloController@signin_action');
