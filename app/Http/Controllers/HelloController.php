@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Contact;
 use App\item;
+use App\Models\Signin;
+//モデル使う宣言をここではしている
 
 class HelloController extends Controller
 {

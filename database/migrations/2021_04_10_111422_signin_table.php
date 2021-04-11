@@ -13,11 +13,14 @@ class SigninTable extends Migration
      */
     public function up()
     {Schema::create('signins', function (Blueprint $signins) {
+        
+        $signins->bigIncrements('id');
         $signins->string('name');
         $signins->string('mail');
         $signins->integer('age');
         $signins->string('psddword');
         $signins->string('repsddword');
+        $signins->timestamps();
 
         });
     }
